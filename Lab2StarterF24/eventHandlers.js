@@ -7,3 +7,9 @@ let goBtn2 = document.querySelector('#go-button-part2');
 goBtn2.addEventListener('click', () => {
   Part2Function();
 })
+
+let clearBtn = document.querySelector('#clear-button');
+let inputs = document.querySelectorAll('input');
+clearBtn.addEventListener('click', () => {
+  inputs.forEach(input => input.value = '');
+})

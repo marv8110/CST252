@@ -28,7 +28,7 @@ function Part2Function() {
   let newFullNameInput2 = newFullNameInput.reverse();
 
   let result = document.querySelector('#result-part2');
-  result.textContent = newFullNameInput2.join(", ")
+  result.textContent = newFullNameInput2.join(", ");
   //newFullNamePart[1] + ", " + newFullNamePart[0];
   
 

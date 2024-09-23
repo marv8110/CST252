@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="problem-area">
+    <h3>Part 1</h3>
+    <p>When you press <b>go</b>, the application will do find any place in <b>source</b> where <b>placeholder</b> occurs
+      and replace it with <b>replacement</b>. We'll demo how this is supposed to look in class</p>
+    <div class="form-section">
+      <label for="original">Original:</label>
+      <input id="original" />
+    </div>
+    <div class="form-section">
+      <label for="find">Find:</label>
+      <input id="find" />
+    </div>
+    <div class="form-section">
+      <label for="replace">Replace:</label>
+      <input id="replace" />
+    </div>
+    <div class="form-section">
+      <button id="go-button-part1">Go</button>
+    </div>
+    <div class="form-section">
+      <b>Result: </b>&nbsp;
+      <span id="result-part1">Click "Go" to see result</span>
+    </div>
+  </div>
+  <div class="problem-area">
+    <h3>Part 2</h3>
+    <p>When you press <b>go</b>, the application will do find any take your full name and reformat it in "LastName,
+      FirstName" format. For example, "Luma's Downs" becomes "Downs, Luma's"</p>
+    <div class="form-section">
+      <label for="full-name">Full name:</label>
+      <input id="full-name" />
+    </div>
+    <div class="form-section">
+      <button id="go-button-part2">Go</button>
+    </div>
+    <div class="form-section">
+      <b>Result: </b>&nbsp;
+      <span id="result-part2">Click "Go" to see result</span>
+    </div>
+
+  </div>
+
+  <script src="script.js" defer></script>
+  <script src="eventHandlers.js" defer></script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

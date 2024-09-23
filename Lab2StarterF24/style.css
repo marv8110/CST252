@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.problem-area {
+  border-bottom: thin solid black;
+}
+
+.form-section {
+  margin: 10px;
+}
+
+#result {
+  font-style: italic;
+}

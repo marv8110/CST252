@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
+
+h1{
+  margin: 20px;
+  font-size: 50px;
+  text-align: center;
+  border-style: solid;
+}
+
+h2{
+  color: black;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.column {
+  width: 33.33%;
+  float: left;
+}
+
+button {
+background-color: black;
+color: white;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  margin: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+.display-box {
+  height: 500px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-size: 20px;
+  display: none;
+}
+
+p {
+  margin: 20px;
+  color: black;
+}
+
+#displayboxImage1 {
+  margin: 20px;
+}
+
+.display{
+  display: none;
+}

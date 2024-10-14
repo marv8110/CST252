@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  margin: 8px 0px;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+}

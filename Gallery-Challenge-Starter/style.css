@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.arrow {
+  font-size: 48px;
+  margin-top: 100px;
+}
+
+
+.arrow,
+.mainImage,
+.galleryImage {
+  float: left;
+}
+
+.mainImage {
+  width: 300px;
+  height: 300px;
+  border: thin solid black;
+}
+
+.galleryImage {
+  width: 75px;
+  height: 75px;
+  border: thin solid black;
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 100%;
+  clear: both;
+}
+
+.active {
+  border: thick solid black;
+}
+
+img {
+height: 30px;
+width: 30px;
+}
